@@ -13,7 +13,7 @@ int main(void){
    printf("digite um numero real:"); 
    scanf("%f", &num3); 
 
-   A = (num1 * 2) + (num2 / 2);
+   A = (num1 * 2) + ((float)num2 / 2);
 
    printf("o produto deu: %i", A);
 

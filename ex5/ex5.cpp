@@ -19,9 +19,11 @@ int main(void){
 
    B = (num1 * 3) + num3;
 
+   printf("o resultado é: %i", B)
    
    C = num3 * num3 * num3;
-   
+
+   printf("o resultado é: %f", C)
 
    return 0;
 }
